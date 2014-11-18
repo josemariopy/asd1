@@ -1,0 +1,47 @@
+.simple-player-container {
+    display: inline-block;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background:transparent !important;
+}
+.simple-player-container > div > ul {
+    margin: 0;
+    padding-left: 0;
+}
+.simpleplayer-play-control {
+    background-image: url('images/play.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    display: block;
+    width: 120px;
+    height: 120px;
+    bottom: -5px;
+    position: relative;
+    cursor: pointer;
+    transition:0.3s ease;
+    -moz-transition:0.3s ease;
+    -webkit-transition:0.3s ease;
+}
+.simpleplayer-play-control:hover {
+    background-image: url('images/play.png');
+    background-size: 100% auto;
+}
+.simpleplayer-stop-control {
+    background-image: url('images/stop.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    display: block;
+    width: 120px;
+    height: 120px;
+    bottom: -5px;
+    position: relative;
+    cursor: pointer;
+    transition:0.3s ease;
+    -moz-transition:0.3s ease;
+    -webkit-transition:0.3s ease;
+}
+.simpleplayer-stop-control:hover {
+    background-image: url('images/stop.png');
+    background-size: 100% auto;
+}
